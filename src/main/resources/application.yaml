@@ -1,0 +1,5 @@
+spring:
+  application:
+    name: kube-core
+server:
+  port: 8081

@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fb587a8e-917d-40c8-aa3a-a83320fdcfd8" name="Changes" comment="feat: 项目框架搭建并完成基本demo" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;kunhuang12345&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;kunhuang12345&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kunhuang12345/kube-core.git&quot;,
+    &quot;accountId&quot;: &quot;835f0e60-68df-4cd5-84fc-a1b820477aae&quot;
+  }
+}</component>
+  <component name="KubernetesApiPersistence">{}</component>
+  <component name="KubernetesApiProvider">{
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="customMavenHome" value="D:\Program Files\JetBrains Toolbox\maven\apache-maven-3.8.8" />
+        <option name="localRepository" value="D:\Program Files\JetBrains Toolbox\maven\apache-maven-3.8.8\repository" />
+        <option name="mavenHomeTypeForPersistence" value="CUSTOM" />
+        <option name="useMavenConfig" value="false" />
+        <option name="userSettingsFile" value="D:\Program Files\JetBrains Toolbox\maven\apache-maven-3.8.8\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2psW3NhPUI3rCYpKafJHTuqmJwY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JUnit.KubeCoreApplicationTests.contextLoads.executor": "Debug",
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "Spring Boot.KubeCoreApplication.executor": "Debug",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/Program Files/JetBrains Toolbox/project/IntelliJ IDEA/kube-core",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.KubeCoreApplication">
+    <configuration name="KubeCoreApplicationTests.contextLoads" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="kube-core" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hk.kubecore.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hk.kubecore" />
+      <option name="MAIN_CLASS_NAME" value="com.hk.kubecore.KubeCoreApplicationTests" />
+      <option name="METHOD_NAME" value="contextLoads" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="KubeCoreApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="kube-core" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.hk.kubecore.KubeCoreApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.KubeCoreApplicationTests.contextLoads" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9f38398b9061-39b83d9b5494-intellij.indexing.shared.core-IU-241.19416.15" />
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-IU-241.19416.15" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fb587a8e-917d-40c8-aa3a-a83320fdcfd8" name="Changes" comment="" />
+      <created>1733189582469</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1733189582469</updated>
+      <workItem from="1733189593467" duration="1098000" />
+      <workItem from="1733191104342" duration="317000" />
+      <workItem from="1733555069468" duration="80000" />
+      <workItem from="1733555184714" duration="349000" />
+      <workItem from="1733555553371" duration="1789000" />
+      <workItem from="1733557359144" duration="1628000" />
+      <workItem from="1733559230578" duration="639000" />
+      <workItem from="1733567197214" duration="4000" />
+      <workItem from="1733602799056" duration="10000" />
+      <workItem from="1733605937703" duration="8478000" />
+      <workItem from="1733658763451" duration="899000" />
+      <workItem from="1733661725651" duration="1504000" />
+      <workItem from="1733669775605" duration="1666000" />
+      <workItem from="1733672314786" duration="75000" />
+    </task>
+    <task id="LOCAL-00001" summary="feat: 项目框架打架并完成基本demo">
+      <option name="closed" value="true" />
+      <created>1733669812973</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1733669812973</updated>
+    </task>
+    <task id="LOCAL-00002" summary="feat: 项目框架打架并完成基本demo">
+      <option name="closed" value="true" />
+      <created>1733671991061</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1733671991061</updated>
+    </task>
+    <task id="LOCAL-00003" summary="feat: 项目框架搭建并完成基本demo">
+      <option name="closed" value="true" />
+      <created>1733672059167</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1733672059167</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="feat: 项目框架打架并完成基本demo" />
+    <MESSAGE value="feat: 项目框架搭建并完成基本demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 项目框架搭建并完成基本demo" />
+  </component>
+</project>
