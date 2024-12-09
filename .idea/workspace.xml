@@ -4,12 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb587a8e-917d-40c8-aa3a-a83320fdcfd8" name="Changes" comment="feat: 项目框架搭建并完成基本demo">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Replenish.md" afterDir="false" />
+    <list default="true" id="fb587a8e-917d-40c8-aa3a-a83320fdcfd8" name="Changes" comment="feat: 添加README与REPLENISH文件，提供实现思路">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/PodService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/impl/PodServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/CoolRequestHistoryPersistent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CoolRequestHistoryPersistent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/controller/PodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hk/kubecore/controller/TestController.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +22,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -84,13 +88,13 @@
     "Spring Boot.KubeCoreApplication.executor": "Debug",
     "git-widget-placeholder": "dev",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Program Files/JetBrains Toolbox/project/IntelliJ IDEA/kube-core",
+    "last_opened_file_path": "D:/Program Files/JetBrains Toolbox/maven/apache-maven-3.8.8/repository/io/kubernetes/client-java-api/22.0.0/client-java-api-22.0.0-sources.jar",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "reference.settings.project.maven.repository.indices",
+    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -106,7 +110,7 @@
       <module name="kube-core" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hk.kubecore.*" />
+          <option name="PATTERN" value="com.hk.kubecore.service.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -161,7 +165,8 @@
       <workItem from="1733661725651" duration="1504000" />
       <workItem from="1733669775605" duration="1666000" />
       <workItem from="1733672314786" duration="75000" />
-      <workItem from="1733672464067" duration="2281000" />
+      <workItem from="1733672464067" duration="4648000" />
+      <workItem from="1733755129506" duration="9493000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 项目框架打架并完成基本demo">
       <option name="closed" value="true" />
@@ -195,7 +200,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733672487217</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat: 添加README与REPLENISH文件，提供实现思路">
+      <option name="closed" value="true" />
+      <created>1733753410484</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1733753410484</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -215,6 +228,11 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="feat: 项目框架打架并完成基本demo" />
     <MESSAGE value="feat: 项目框架搭建并完成基本demo" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 项目框架搭建并完成基本demo" />
+    <MESSAGE value="feat: 添加README与REPLENISH文件，提供实现思路" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加README与REPLENISH文件，提供实现思路" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

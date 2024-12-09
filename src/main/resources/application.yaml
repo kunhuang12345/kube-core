@@ -1,5 +1,8 @@
 spring:
   application:
     name: kube-core
+  jackson:
+    time-zone: GMT+8
+    date-format: yyyy-MM-dd HH:mm:ssXXX
 server:
   port: 8081
