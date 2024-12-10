@@ -1,12 +1,13 @@
 package com.hk.kubecore.controller;
 
+import com.hk.kubecore.entity.PodPo;
+import com.hk.kubecore.entity.dto.PodDto;
 import com.hk.kubecore.service.PodService;
-import io.kubernetes.client.openapi.models.V1Pod;
 import io.swagger.annotations.ApiOperation;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import java.util.List;
@@ -18,10 +19,10 @@ public class PodController {
 
     private final PodService podService;
 
-    @GetMapping("/pods")
+    @GetMapping("/pod")
     @ApiOperation("获取Pod列表")
-    public List<V1Pod> getPodList(@RequestParam(required = false) String namespace) {
-        return podService.getPodList(namespace);
+    public List<PodDto> getPodList(@ModelAttribute PodPo podPo) {
+        return podService.getPodList(podPo);
     }
 
     @GetMapping("/namespaces")

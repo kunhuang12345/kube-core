@@ -4,15 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb587a8e-917d-40c8-aa3a-a83320fdcfd8" name="Changes" comment="feat: 添加README与REPLENISH文件，提供实现思路">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/PodService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/impl/PodServiceImpl.java" afterDir="false" />
+    <list default="true" id="fb587a8e-917d-40c8-aa3a-a83320fdcfd8" name="Changes" comment="feat: api-获取Pod列表&#10;feat: api-获取命名空间列表">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/entity/PodPo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/entity/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/entity/dto/PodDto.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/CoolRequestHistoryPersistent.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/CoolRequestHistoryPersistent.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/controller/PodController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hk/kubecore/controller/TestController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/controller/PodController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/controller/PodController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/PodService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/PodService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/impl/PodServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hk/kubecore/service/impl/PodServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hk/kubecore/controller/PodController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hk/kubecore/controller/PodController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hk/kubecore/service/PodService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hk/kubecore/service/PodService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hk/kubecore/service/impl/PodServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hk/kubecore/service/impl/PodServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -75,29 +78,29 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JUnit.KubeCoreApplicationTests.contextLoads.executor": "Debug",
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "Spring Boot.KubeCoreApplication.executor": "Debug",
-    "git-widget-placeholder": "dev",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/Program Files/JetBrains Toolbox/maven/apache-maven-3.8.8/repository/io/kubernetes/client-java-api/22.0.0/client-java-api-22.0.0-sources.jar",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "com.github.copilot.settings.ApplicationConfigurable",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JUnit.KubeCoreApplicationTests.contextLoads.executor&quot;: &quot;Debug&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;Spring Boot.KubeCoreApplication.executor&quot;: &quot;Debug&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/Program Files/JetBrains Toolbox/maven/apache-maven-3.8.8/repository/io/kubernetes/client-java-api/22.0.0/client-java-api-22.0.0-sources.jar&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Cool.Request&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunDashboard">
     <option name="configurationTypes">
       <set>
@@ -166,7 +169,10 @@
       <workItem from="1733669775605" duration="1666000" />
       <workItem from="1733672314786" duration="75000" />
       <workItem from="1733672464067" duration="4648000" />
-      <workItem from="1733755129506" duration="9493000" />
+      <workItem from="1733755129506" duration="9858000" />
+      <workItem from="1733841163612" duration="1425000" />
+      <workItem from="1733842616587" duration="2446000" />
+      <workItem from="1733845101163" duration="323000" />
     </task>
     <task id="LOCAL-00001" summary="feat: 项目框架打架并完成基本demo">
       <option name="closed" value="true" />
@@ -208,7 +214,31 @@
       <option name="project" value="LOCAL" />
       <updated>1733753410484</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: api-获取Pod列表&#10;feat: api-获取命名空间列表">
+      <option name="closed" value="true" />
+      <created>1733765289262</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1733765289262</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: api-获取Pod列表&#10;feat: api-获取命名空间列表">
+      <option name="closed" value="true" />
+      <created>1733765310045</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1733765310045</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: api-获取Pod列表&#10;feat: api-获取命名空间列表">
+      <option name="closed" value="true" />
+      <created>1733765339277</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1733765339277</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -229,7 +259,9 @@
     <MESSAGE value="feat: 项目框架打架并完成基本demo" />
     <MESSAGE value="feat: 项目框架搭建并完成基本demo" />
     <MESSAGE value="feat: 添加README与REPLENISH文件，提供实现思路" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: 添加README与REPLENISH文件，提供实现思路" />
+    <MESSAGE value="Merge remote-tracking branch 'origin/dev' into dev" />
+    <MESSAGE value="feat: api-获取Pod列表&#10;feat: api-获取命名空间列表" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: api-获取Pod列表&#10;feat: api-获取命名空间列表" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
